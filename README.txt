@@ -1,0 +1,1 @@
+Goals: to make funny site with HTML and CSS
