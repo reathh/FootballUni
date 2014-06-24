@@ -1,6 +1,6 @@
 $(document).ready(
   function () {
-    $('.nav li').hover(
+    $('#navigation li').hover(
       function () { //appearing on hover
         $('ul', this).fadeIn();
       },
