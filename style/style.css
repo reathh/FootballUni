@@ -4,19 +4,19 @@ body {
 nav {
 	text-align: center;
 }
-.nav {
+#navigation {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	display: inline-block;
 }
 
-.nav li {
-	float: left;
+#navigation li {
+	display: inline-block;
 	width: 160px;
-	position: relative;
 }
 
-.nav li a {
+#navigation li a {
 	background: #333;
 	color: #fff;
 	display: block;
@@ -24,11 +24,10 @@ nav {
 	text-decoration: none;
 	border-top: 1px solid #069;
     border-radius: 10px;
-}
-
-.nav li a:hover {
-	color: #069;
-}
-a {
     font-weight: bold;
 }
+
+#navigation li a:hover {
+	color: #079;
+}
+
