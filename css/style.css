@@ -23,7 +23,7 @@ nav {
 	width: 160px;
 }
 
-#navigation li a {
+.navitem>a {
 	background: #333;
 	color: #fff;
 	display: block;
@@ -34,7 +34,7 @@ nav {
     font-weight: bold;
 }
 
-#navigation li a:hover {
+.navitem>a:hover {
 	color: #079;
 }
 #footer {
