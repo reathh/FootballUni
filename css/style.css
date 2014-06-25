@@ -46,7 +46,6 @@ nav {
     background: -o-linear-gradient(-45deg, #1426cc 0%,#1caecc 15%,#1459d1 33%,#1459d1 33%,#1121af 50%,#0a6bb5 76%,#2f9ce0 88%,#0a0db2 100%);
     background: -ms-linear-gradient(-45deg, #1426cc 0%,#1caecc 15%,#1459d1 33%,#1459d1 33%,#1121af 50%,#0a6bb5 76%,#2f9ce0 88%,#0a0db2 100%);
     background: linear-gradient(135deg, #1426cc 0%,#1caecc 15%,#1459d1 33%,#1459d1 33%,#1121af 50%,#0a6bb5 76%,#2f9ce0 88%,#0a0db2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1426cc', endColorstr='#0a0db2',GradientType=1 );
     color: black;
     position: relative;
     bottom: 0;
