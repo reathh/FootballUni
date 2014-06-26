@@ -22,18 +22,6 @@ nav {
 	margin-top: 5px;
 	text-align: center;
 }
-#navigation {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	display: inline-block;
-}
-
-#navigation li {
-	display: inline-block;
-	width: 160px;
-}
-
 .navitem>a {
 	background: #333;
 	color: #fff;
@@ -45,8 +33,10 @@ nav {
     font-weight: bold;
     margin-bottom: 5px;
 }
-
-.navitem>a:hover {
+nav .active {
+    color: #079;
+}
+.navitem>a:hover{
 	color: #079;
 }
 footer {
@@ -88,4 +78,9 @@ hr {
     color: #00008E;
     height: 1.5px;
     background-color: #6697E0;
+}
+.galleria {
+     width: 100%;
+     height: 400px;
+     background: #000 
 }

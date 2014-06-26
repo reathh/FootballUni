@@ -2,25 +2,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Home</title>
+        <title>Pictures</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/galleria-1.3.6.min.js"></script>
     </head>
     <body>
-        <header>
-            <img src="images/header.png" alt="header imagee" />
-            
-            <nav>
-                <div class="container-fluid">
-                    <div class="row">
+        <div id="wrapper">
+            <header>
+                <img src="images/header.png" alt="header image" />
+                
+                <div class="row">
+                    <nav>
                         <div class="col-sm-4 col-md-2 col-xs-6 navitem">
                             <a href="#">Home</a>
                         </div>
                         <div class="col-sm-4 col-md-2 col-xs-6 navitem">
-                            <a href="#">Pictures</a>
+                            <a href="#" class="active">Pictures</a>
                         </div>
                         <div class="col-sm-4 col-md-2 col-xs-6 navitem">
                             <a href="#">Video</a>
@@ -34,14 +35,38 @@
                         <div class="col-sm-4 col-md-2 col-xs-6 navitem">
                             <a href="#">About Us</a>
                         </div>
+                    </div>
+                </nav>
+            </header>
+            <hr>
+            <div class="row">
+                <main>
+                <div class="col-md-8">
+                    <section>
+                        <div class="galleria">
+                            <img src="images/photo1.jpg">
+                            <img src="images/photo1.jpg">
+                            <img src="images/photo1.jpg">
+                            <script>
+                            Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+                            Galleria.run('.galleria');
+                            </script>
+                        </div>
+                    </section>
+                </div>
+                </main>
+                <div class="col-md-4">
+                    <aside>
+                        <script type="text/javascript" src="js/calendar.js"></script>
+                    </aside>
                 </div>
             </div>
-        </nav>
-    </header>
-  <div id="footer">
-            <p class="team">2014-All rights reserved team DEATHWING  &copy;</p>
-            <p class="contact">Contact information: <a href="mailto:deathwing@gmail.com">deathwing@gmail.com</a></p>
-        </div>        
-        </footer>
-</body>
+            <div class="row">
+                <footer>
+                    <p class="team">2014-All rights reserved team DEATHWING  &copy;</p>
+                    <p class="contact">Contact information: <a href="mailto:deathwing@gmail.com">deathwing@gmail.com</a></p>
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>
