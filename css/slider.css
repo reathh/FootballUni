@@ -58,25 +58,17 @@ html[xmlns] .slides { display: block; }
     max-width: 400px;
 }
 .flex-direction-nav a {
-    display: block;
+    display: none;
     position: absolute;
-    margin: -17px -25px 30px -30px;
     width: 35px;
     height: 49px;
     top: 50%;
     cursor: pointer;
-    text-indent: -9999px;
-    background-color: cyan;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#82d344), to(#51af34));
-    background-image: -webkit-linear-gradient(top, #82d344, #51af34);
-    background-image: -moz-linear-gradient(top, #82d344, #51af34);
-    background-image: -o-linear-gradient(top, #82d344, #51af34);
-    background-image: linear-gradient(to bottom, #82d344, #51af34);
+    color: #B2D1FF;
 }
 .flex-direction-nav a:after {
     display: block;
     position: absolute;
-    content: '';
     width: 0;
     height: 0;
     top: 5px;
