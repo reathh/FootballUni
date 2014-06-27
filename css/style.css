@@ -50,14 +50,15 @@ footer {
     background: -ms-linear-gradient(-45deg, #1426cc 0%,#1caecc 15%,#1459d1 33%,#1459d1 33%,#1121af 50%,#0a6bb5 76%,#2f9ce0 88%,#0a0db2 100%);
     background: linear-gradient(135deg, #1426cc 0%,#1caecc 15%,#1459d1 33%,#1459d1 33%,#1121af 50%,#0a6bb5 76%,#2f9ce0 88%,#0a0db2 100%);
     color: black;
+    font-size: 0.8em;
     text-align: center;
 }
-.team, .contact {
+.team {
     font-weight: bold;
     color: black;
     margin: 10px;
 }
-.contact a {
+.team a {
     color: white;
 }
 h1 {
