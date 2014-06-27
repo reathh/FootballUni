@@ -6,8 +6,12 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/slider.css">
         <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                     
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
     </head>
     <body>
         <div id="wrapper">
@@ -53,6 +57,27 @@
                         <script type="text/javascript" src="js/calendar.js"></script>
                     </aside>
                 </div>
+            </div>
+            <div class="slider">
+        <script>
+            $(document).ready(function () {
+                $('.flexslider').flexslider({
+                    animation: 'fade',
+                    controlsContainer: '.flexslider'
+                });
+            });
+        </script>
+  <div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li><img src="images/photo1.jpg" height="100%" width="100%" /></li>
+            <li><img src="images/photo1.jpg" height="100%" width="100%" /></li>
+            <li><img src="images/photo1.jpg" height="100%" width="100%" /></li>
+            <li><img src="images/photo1.jpg" height="100%" width="100%" /></li>
+            <li><img src="images/photo1.jpg" height="100%" width="100%" /></li>  
+                </ul>
+            </div>
+            </div>
             </div>
             <div class="row">
                 <footer>
