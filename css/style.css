@@ -85,3 +85,21 @@ hr {
      height: 400px;
      background: #000 
 }
+.jokes {
+    width: 50%;
+    border: 1px solid grey;
+    background-color: #0052CC;
+    opacity: 0.4;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.youtube-video {
+    text-align: center;
+}
+iframe {
+    margin-left: 20px;
+    text-align: center;
+}
