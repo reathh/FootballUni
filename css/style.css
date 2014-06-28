@@ -84,15 +84,28 @@ hr {
      background: #000 
 }
 .jokes {
-    width: 50%;
+    width: 100%;
     border: 1px solid grey;
     background-color: #0052CC;
     opacity: 0.4;
     color: white;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 5px;
-    padding: 10px;
+    padding: 7px;
+    min-width: 120px;
+}
+.jokes-row {
+    width: 100%;
+    border: 1px solid grey;
+    background-color: #0052CC;
+    opacity: 0.4;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 7px;
+    min-width: 120px;
 }
 .youtube-video {
     text-align: center;
@@ -100,4 +113,7 @@ hr {
 iframe {
     margin-left: 20px;
     text-align: center;
+}
+.text {
+    float: left;
 }
