@@ -71,6 +71,7 @@ aside {
     margin-left: 20px;
     font-style: italic;
     text-align: center;
+    font-size: 1.6em;
 }
 hr {
     width: 95%;
@@ -132,4 +133,8 @@ hr {
 }
 dt {
     padding-left: 5px;
+}
+dt img {
+    border: 2px solid #455;
+    border-radius: 5px; 
 }
