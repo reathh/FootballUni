@@ -1,0 +1,13 @@
+.navitem:before {
+	content:url('../footballball.png');
+	position: relative;
+	top: 10px;
+}
+.navitem {
+	display: inline-block;
+}
+.navitem a {
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+}
