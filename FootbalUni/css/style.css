@@ -75,9 +75,10 @@ footer {
     color: black;
     font-weight: bold;
 }
-h1 {
+h1, h2 {
     color: #31312E;
     font-weight: bold;
+    text-align: center;
 }
 aside {
     text-align: center;
@@ -85,6 +86,11 @@ aside {
 .sentences {
     margin-left: 20px;
     font-style: italic;
+    font-size: 1.6em;
+}
+.softuni {
+    margin-left: 20px;
+    font-weight: bold;
     font-size: 1.6em;
 }
 hr {
@@ -149,11 +155,11 @@ hr {
 }
 
 /* About */
-dt {
-    padding-left: 5px;
-}
 dt img {
- 
+    padding-left: 5px;
+    border: 2px solid #455;
+    border-radius: 5px; 
+    width: 100px;
 }
 dd img {
     border: 2px solid #455;
