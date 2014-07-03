@@ -124,7 +124,6 @@ hr {
     display: inline-block;
     margin-top: 10px;
     position: relative;
-    left: 50px;
     list-style-type: none;
 }
 .social-icons li {
@@ -209,4 +208,5 @@ dt {
 .row {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 50px;
 }
