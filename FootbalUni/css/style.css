@@ -1,6 +1,7 @@
 body {
     background-image:url(../images/header.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .color-header {
     width: 90%;
