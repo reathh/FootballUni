@@ -13,7 +13,7 @@
     <body>
         <header>
             <div class="color-header">
-                <a href="index.html"><img src="images/logo.png"></a>
+                <a href="?p="><img src="images/logo.png" alt="Header"></a>
             </div>
             <div class="row">
                 <nav>
@@ -52,7 +52,7 @@
         </header>
         <hr>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <main>
                 <?php
                 $p = $_GET['p'] ;
@@ -78,7 +78,7 @@
             </section>
             </main>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <aside>
                 <script type="text/javascript" src="js/calendar.js"></script>
                 <ul class="social-icons">
@@ -97,8 +97,13 @@
     </div>
     
     <footer>
-        <p class="team">2014-All rights reserved team DEATHWING  &copy;<br>
-        Contact information: <a href="mailto:deathwing@gmail.com">deathwing@gmail.com</a>
+        <p class="team">2014-All rights reserved team DEATHWING  &copy;
+        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fivelinkirilov.com%2FProjects%2FWeb%2520Fundamentals%2FTeam%2520Project%2FFootballUni%2Findex.php%3Fp%3D"><img src="images/html5icon.png" alt="html5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fivelinkirilov.com%2FProjects%2FWeb%2520Fundamentals%2FTeam%2520Project%2FFootballUni%2Fcss%2Fstyle.css&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
         </p>
     </footer>
 </body>

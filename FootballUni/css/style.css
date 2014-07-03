@@ -8,13 +8,12 @@ body {
     height: 70px;
     margin-left: 5%;
     background: #96bcce;
-background: -moz-linear-gradient(45deg, #96bcce 0%, #cfebf9 50%, #96bcce 100%);
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#96bcce), color-stop(50%,#cfebf9), color-stop(100%,#96bcce));
-background: -webkit-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
-background: -o-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
-background: -ms-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
-background: linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96bcce', endColorstr='#96bcce',GradientType=1 );
+    background: -moz-linear-gradient(45deg, #96bcce 0%, #cfebf9 50%, #96bcce 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#96bcce), color-stop(50%,#cfebf9), color-stop(100%,#96bcce));
+    background: -webkit-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
+    background: -o-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
+    background: -ms-linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
+    background: linear-gradient(45deg, #96bcce 0%,#cfebf9 50%,#96bcce 100%);
     opacity: 0.8;
 }
 
@@ -51,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96bcce', end
 footer {
     text-align: center;
     width: 90%;
-    height: 50px ;
+    height: 50px;
     margin-left: 5%;
     position: fixed;
     bottom:0;
@@ -66,6 +65,7 @@ footer {
     opacity: 0.8;
 }
 
+/* Team */
 
 .team {
     font-weight: bold;
@@ -156,14 +156,14 @@ hr {
 
 /* About */
 dt img {
-    padding-left: 5px;
     border: 2px solid #455;
     border-radius: 5px; 
     width: 100px;
+    margin-right: 10px;
 }
 dd img {
     border: 2px solid #455;
-    border-radius: 5px; 
+    border-radius: 5px;
     width: 100px;
 }
 h2 {
@@ -171,20 +171,18 @@ h2 {
 }
 .content {
     margin-left: 10%;
-    background: white;
-    opacity: 0.7;
+    background: rgba(255,255,255,0.7);
     border-radius: 10px;
 }
 dt {
     width: 100%;
-    background: #5cc0e8;
+    background: rgba(92,192,232, 0.6);
     text-align: center;
     border-radius: 10px;
     color: black;
     font-size: 1.4em;
     padding-top: 10px;
-    padding-left: 10px;
-    opacity: 0.6;
+    padding-left: 15px;
 }
  article {
     text-align: left;
