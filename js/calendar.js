@@ -16,7 +16,7 @@ var day_of_week = new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat');
                 var highlight_end   = '</CENTER></TD></TR></TABLE></B>';
                 var TD_start = '<TD WIDTH="30"><CENTER>';
                 var TD_end = '</CENTER></TD>';
-                cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=BBBBBB class=col-xs-offset-5><TR><TD>';
+                cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=BBBBBB class=col-xs-offset-4><TR><TD>';
                     cal += '<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>' + TR_start;
                         cal += '<TD COLSPAN="' + DAYS_OF_WEEK + '" BGCOLOR="#EFEFEF"><CENTER><B>';
                             cal += month_of_year[month]  + '   ' + year + '</B>' + TD_end + TR_end;
